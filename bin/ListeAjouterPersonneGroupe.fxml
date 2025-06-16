@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sae201.CtrlAjouterPersonneDansGroupe">
+   <children>
+      <Label text="Liste des personnes ">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER_LEFT" prefHeight="300.0">
+         <children>
+            <VBox prefHeight="100.0" prefWidth="250.0">
+               <children>
+                  <ListView fx:id="listeAjouterPersonne" prefHeight="300.0" prefWidth="200.0" />
+               </children>
+            </VBox>
+         </children>
+         <padding>
+            <Insets left="40.0" top="10.0" />
+         </padding>
+      </HBox>
+      <HBox alignment="BOTTOM_RIGHT" prefHeight="50.0" prefWidth="200.0" spacing="20.0">
+         <padding>
+            <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+         </padding>
+         <children>
+            <Button fx:id="bnValider" mnemonicParsing="false" prefWidth="70.0" text="Valider" />
+            <Button fx:id="bnAnnuler" cancelButton="true" defaultButton="true" mnemonicParsing="false" onAction="#annuler" prefWidth="70.0" text="Annuler" />
+         </children>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+   </padding>
+</VBox>
