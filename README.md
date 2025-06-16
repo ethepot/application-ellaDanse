@@ -2,9 +2,6 @@
 
 Ce projet est une **application Java** permettant la gestion optimisée des plans de tables pour les galas de l'association fictive EllaDanse.
 
-![Technologies](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=white)
-![UI/UX](https://img.shields.io/badge/UI/UX-Design-FF6B6B?style=for-the-badge&logo=figma&logoColor=white)
-
 ---
 
 ## ✨ Fonctionnalités principales
