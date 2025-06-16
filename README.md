@@ -17,13 +17,6 @@ Ce projet est une **application Java** permettant la gestion optimisée des plan
 - Java
 - JavaFX
 
-## 📁 Structure du projet
-
-- `/client` : Application frontend React
-- `/server` : API Node.js/Express
-- `/database` : Scripts de configuration PostgreSQL
-- `/docs` : Documentation utilisateur et technique
-
 ## 👥 Équipe projet
 
 - Ewen Thépot
